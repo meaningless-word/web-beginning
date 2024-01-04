@@ -1,0 +1,66 @@
+.navigation {
+    float: right;
+    height: 100%;
+}
+ 
+.navigation li {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: green;
+    
+}
+
+.navigation li a {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: PaleTurquoise;
+    text-decoration: none;
+  }
+ 
+.navigation a:hover {
+    background-color: LightSeaGreen;
+    color: PaleTurquoise;
+}
+
+.header {
+    height: 80x;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.inner-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-container {
+    width: 30%;
+}
+
+.content {
+    padding: 10px 80px 10px 80px;
+    font-family: 'PT Serif', Georgia;
+    font-size: 21px;
+}
+
+.content h2 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.inside-context-left {
+    display: float;
+    float: left;
+    margin: 10px;
+}
+
+.inside-context-right {
+  display: float;
+  float: right;
+  margin: 10px;
+}
